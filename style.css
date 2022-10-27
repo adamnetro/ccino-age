@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: rgb(0, 153, 255);
+    width: 100%;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.logo {
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: 900;
+    margin-left: 20px;
+}
+
+
+
+
+.fund{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    background: url(images/istockphoto-684133544-612x612.jpg);
+
+}
+
+.g1{
+    max-width: 500px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.205);
+    border-radius: 30px;
+    padding: 60px 90px;
+}
+
+.box{
+    padding: 10px 0px;
+    border: none;
+    text-align: center;
+    border-bottom: 2px solid  rgb(165, 165, 165);
+    color: rgb(165, 165, 165);
+    background-color: rgb(255, 255, 255);
+    outline: none;
+    font-size: 1.5em;
+}
+
+.box:focus{
+    color: black;
+}
+
+
+.calc {
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.5em;
+    background-color: rgb(43, 255, 0);
+    padding: 10px 30px;
+    margin-top: 15px;
+    margin-left: 2.5em;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.205);
+}
+
+.calc:active{
+    background-color: rgb(145, 184, 128);
+}
+.ec{
+    font-size: 1.3em;
+    font-weight: 700;
+    margin-top: 2em;
+    margin-right: 10px;
+    color: rgb(165, 165, 165);
+    text-align: center;
+}
+
+
+
+@media (max-width: 1080px) {
+
+    header{
+        padding: 30px 0px;
+    }
+
+    .logo{
+        font-size: 4em;
+    }
+
+    .fund{
+        height: 100vh;
+        max-width: 60vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .g1{
+        max-width: 900px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 30px;
+        padding: 200px 50px;
+    }
+
+    .g2{
+        max-width: 200px;
+    }
+
+    .box{
+        font-size: 2.5em;
+    }
+
+    .calc{
+        font-size: 3em;
+        margin-top: 1em;
+        padding: 10px 3.2em;
+    }
+
+    .ec{
+        font-size: 2em;
+        font-weight: 700;
+        margin-top: 2em;
+        margin-right: 10px;
+        color: rgb(165, 165, 165);
+        text-align: center;
+    }
+    
+}
+
+
